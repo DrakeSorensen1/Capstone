@@ -17,7 +17,7 @@ const Login = (props: Props) => {
       username: userName.current,
       password: pass.current,
       redirect: true,
-      callbackUrl: props.callbackUrl ?? "loras-baja.vercel.app",
+      callbackUrl: props.callbackUrl ?? "https://loras-baja.vercel.app",
     });
   };
   return (
